@@ -1,4 +1,4 @@
-f = open(r"C:\\Users\\adler\\Documents\\PP-2024\\Lab6\\builtin-functions\\1.py", "r")
+f = open(r"C:\Users\Dayan\OneDrive\Рабочий стол\schoolar`s materials\pp2\lab6\built-in-function\1.py", "r")
 
 c = 0
 
