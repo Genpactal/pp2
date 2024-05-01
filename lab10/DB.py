@@ -1,10 +1,9 @@
 import psycopg2
 conn = psycopg2.connect(
 	database="snake",
-	user='snake_user',
-	password='Esko28:)',
+	user='postgres',
+	password='6618',
 	host='localhost',
-	port= '5432'
 )
 
 conn.autocommit = True

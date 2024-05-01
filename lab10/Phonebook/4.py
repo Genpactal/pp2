@@ -4,9 +4,8 @@ def update_contact(first_name, new_phone_num):
     conn = psycopg2.connect(
         host='localhost',
         database='phone',
-        user='user',
-        password='12345',
-        port='54321'
+        user='postgres',
+        password='6618',
     )
     conn.autocommit = True
 
