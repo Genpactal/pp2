@@ -9,7 +9,7 @@ conn = psycopg2.connect(
 conn.autocommit = True
 cursor = conn.cursor()
 
-sql = '''CREATE TABLE Snakedata(
+sql = '''CREATE TABLE snakedata(
    user_login VARCHAR(255) NOT NULL,
    last_score INT,
    last_level INT,

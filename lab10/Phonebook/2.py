@@ -14,7 +14,6 @@ def insert_data_from_csv(file):
 
     with open(file, 'r') as file:
         reader = csv.reader(file)
-        next(reader)  # Skip the header row
         for row in reader:
             cursor.execute(
                 "INSERT INTO PhoneBook (first_name, last_name, phone_num) VALUES (%s, %s, %s)",
