@@ -23,5 +23,5 @@ sql = '''CREATE TABLE snakedata(
 
 
 cursor.execute(sql)
-print("Database has been created successfully !!");
+print("Database has been created successfully !!")
 conn.close()
