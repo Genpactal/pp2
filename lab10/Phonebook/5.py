@@ -24,4 +24,4 @@ def query_contacts(last_name=None):
     conn.close()
 
 query_contacts()  # Fetch all contacts
-query_contacts('Ospanov')  # Fetch contacts with last name 'Doe'
+query_contacts('Ospanov')  # Fetch contacts with first name

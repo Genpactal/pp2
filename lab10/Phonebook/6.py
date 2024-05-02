@@ -19,9 +19,8 @@ def delete_contact_by_phone(phone_num):
     conn = psycopg2.connect(
         host='localhost',
         database='phone',
-        user='user',
-        password='12345',
-        port='54321'
+        user='postgres',
+        password='6618',
     )
     conn.autocommit = True
 
